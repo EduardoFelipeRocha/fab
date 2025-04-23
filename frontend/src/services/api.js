@@ -1,5 +1,5 @@
 import axios from "axios";
 const api = axios.create({
-    baseURL: "/api/", //0 proxy vai lidar com essa URL
+    baseURL: "/api/", 
 });
 export default api;
